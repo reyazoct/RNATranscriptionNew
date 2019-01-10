@@ -8,5 +8,8 @@ def dna_to_rna(dna)
 
   when "G"
     "C"
+
+  when "T"
+    "A"
   end
 end
