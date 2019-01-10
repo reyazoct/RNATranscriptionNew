@@ -11,5 +11,8 @@ def dna_to_rna(dna)
 
   when "T"
     "A"
+
+  when "A"
+    "U"
   end
 end
