@@ -8,4 +8,8 @@ describe "dna_to_rna" do
   it "compliment of cytosine to guanine" do
     expect(dna_to_rna("C")).to eq "G"
   end
+
+  it "compliment of guanine to cytosine" do
+    expect(dna_to_rna("G")).to eq "C"
+  end
 end

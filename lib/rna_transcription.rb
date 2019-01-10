@@ -6,5 +6,7 @@ def dna_to_rna(dna)
   when "C"
     "G"
 
+  when "G"
+    "C"
   end
 end
