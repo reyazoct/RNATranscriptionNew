@@ -20,4 +20,8 @@ describe "dna_to_rna" do
   it "compliment of adenine to uracil" do
     expect(dna_to_rna("A")).to eq "U"
   end
+
+  it "test rna compliment" do
+    expect(dna_to_rna("ACGTGGTCTTAA")).to eq "UGCACCAGAAUU"
+  end
 end
