@@ -6,6 +6,6 @@ def dna_to_rna(dna)
     str << "A" if ch == 'T'
     str << "U" if ch == 'A'
   end
-  #end of file
   return str
+  #Hey I'm a comment line
 end
